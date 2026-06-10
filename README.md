@@ -23,3 +23,7 @@ I spent years building GTM and product strategy for banks, insurers, and fintech
 ## 🧰 How I build
 
 Claude (Code, API, agent harnesses) for velocity · TypeScript/Next.js + Python/FastAPI · Supabase/Postgres · Vercel. Idea → working product in days, then iterate on real usage.
+
+---
+
+<sub>📍 Cambridge, MA · Open to founder fellowships and AI product/eng roles · <a href="mailto:karshin@mit.edu">karshin@mit.edu</a></sub>
