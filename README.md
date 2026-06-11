@@ -7,7 +7,7 @@ MIT Sloan MBA · ex-Oliver Wyman.
 
 ## 🛠 Systems I've built
 
-- **[kalshi-trading](https://github.com/karshincheo/kalshi-trading)** — autonomous Kalshi trading system where an LLM research loop writes, AST-validates, sandbox-backtests, and git-commits its own strategies, optimizing out-of-sample Brier score. Clone it and reproduce a 0.0828 Brier score on bundled real market data in ~25s, no API keys — `make demo`.
+- **[kalshi-trading](https://github.com/karshincheo/kalshi-trading)** — autonomous Kalshi trading system where an LLM research loop writes, AST-validates, sandbox-backtests, and git-commits its own strategies, optimizing out-of-sample Brier score. Clone it and run the whole evaluation pipeline on bundled real market data in ~25s, no API keys — `make demo` prints the seed strategy's Brier score against the market-implied baseline.
 - **[PolyClaw](https://github.com/karshincheo/PolyClaw)** — two subsystems: a zero-dependency selector that turns raw Polymarket payloads into risk-capped, EV-scored picks (runs offline in ~1s), and a platform package with ingestion, a backtest engine with 7 strategies, paper/live execution, and a React dashboard.
 - **[claw-agents-playground](https://github.com/karshincheo/claw-agents-playground)** — multi-agent playground where AI agents pitch and roast startup ideas — [live on Vercel](https://claw-agents-playground.vercel.app).
 - **[gym-tracker](https://github.com/karshincheo/gym-tracker)** (Pup Gains) — local-first workout tracker with an offline edit queue that syncs to Supabase. Small, finished, used daily.
